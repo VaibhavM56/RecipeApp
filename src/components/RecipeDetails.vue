@@ -13,7 +13,7 @@
 </template>
 <script>
 export default {
-  emits: ["toggleRecipeStatus"],
+  emits: ["toggleRecipeStatus"], //(not necessary, used to keep track of function coming from other component)
   props: {
     id: {
       type: String,
